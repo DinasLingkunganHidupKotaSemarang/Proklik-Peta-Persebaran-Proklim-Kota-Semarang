@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<!-- saved from url=(0184)file:///C:/Users/ACER/Downloads/BATAS%20WILAYAH%20KELURAHAN-DESA%2010K/Folder%20New%20Qgis/PROKLIM%20DLH%20KOTA%20SMG/qgis2web_2026_09_22-04_36_50_776572/index.html#12/-7.0247/110.3899 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet.css">
+        <link rel="stylesheet" href="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/L.Control.Layers.Tree.css">
+        <link rel="stylesheet" href="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/qgis2web.css">
+        <link rel="stylesheet" href="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet.photon.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>PROKLIK : PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026</title>
+    </head>
+    <body>
+        <div id="map" class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;">
+        <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(321px, 24px, 0px);"><div class="leaflet-pane leaflet-tile-pane"></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-433" style="opacity: 1; transform: translate3d(294px, 180px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Semarang Selatan</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-434" style="opacity: 1; transform: translate3d(473px, 194px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Pedurungan</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-435" style="opacity: 1; transform: translate3d(356px, 236px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Candisari</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-436" style="opacity: 0; transform: translate3d(404px, 127px, 0px); transition: opacity;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Gayamsari</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-437" style="opacity: 1; transform: translate3d(445px, 333px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Tembalang</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-438" style="opacity: 0; transform: translate3d(340px, 109px, 0px); transition: opacity;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Semarang Timur</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-439" style="opacity: 0; transform: translate3d(260px, 227px, 0px); transition: opacity;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Gajahmungkur</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-right" role="tooltip" id="leaflet-tooltip-440" style="opacity: 0; transform: translate3d(294px, 120px, 0px); transition: opacity;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Semarang Barat</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-441" style="opacity: 1; transform: translate3d(281px, 66px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Semarang Utara</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-442" style="opacity: 0; transform: translate3d(320px, 397px, 0px); transition: opacity;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Banyumanik</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-right" role="tooltip" id="leaflet-tooltip-443" style="opacity: 1; transform: translate3d(133px, 190px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Ngaliyan</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-right" role="tooltip" id="leaflet-tooltip-444" style="opacity: 1; transform: translate3d(274px, 380px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Gunungpati</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-right" role="tooltip" id="leaflet-tooltip-445" style="opacity: 1; transform: translate3d(139px, 102px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Tugu</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-right" role="tooltip" id="leaflet-tooltip-446" style="opacity: 1; transform: translate3d(102px, 345px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Mijen</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-447" style="opacity: 1; transform: translate3d(528px, 92px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Genuk</div></div><div class="leaflet-tooltip css_WilayahKecamatan_2 leaflet-zoom-animated leaflet-tooltip-left" role="tooltip" id="leaflet-tooltip-448" style="opacity: 1; transform: translate3d(285px, 131px, 0px); transition: opacity 1s;"><div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: &#39;Fira Sans&#39;, sans-serif;">Semarang Tengah</div></div></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(845822px, 544800px, 0px) scale(2048);"></div><div class="leaflet-pane leaflet-pane_GoogleRoad_0-pane" style="z-index: 400;"><div class="leaflet-layer " style="z-index: 9; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 28; transform: translate3d(-315px, -297px, 0px) scale(1);"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3303&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3304&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3303&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3304&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3302&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3305&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3302&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3305&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3303&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3304&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3303&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3304&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3302&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3305&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3302&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3305&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3301&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3306&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3301&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3306&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3301&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3306&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3301&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=m&amp;x=3306&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 814px, 0px); opacity: 1;"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 27; transform: translate3d(0px, 0px, 0px) scale(0.5);"></div></div></div><div class="leaflet-pane leaflet-pane_GoogleSatellite_1-pane" style="z-index: 401;"><div class="leaflet-layer " style="z-index: 8; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 28; transform: translate3d(-315px, -297px, 0px) scale(1);"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3303&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3304&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3303&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3304&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3302&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3305&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3302&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3305&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3303&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3304&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3303&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(376px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3304&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(632px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3302&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3305&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3302&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(120px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3305&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(888px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3301&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3306&amp;y=2127&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 302px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3301&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3306&amp;y=2128&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 558px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3301&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3306&amp;y=2126&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 46px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3301&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-136px, 814px, 0px); opacity: 1;"><img alt="" src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/lyrs=s&amp;x=3306&amp;y=2129&amp;z=12" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1144px, 814px, 0px); opacity: 1;"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 27; transform: translate3d(0px, 0px, 0px) scale(0.5);"></div></div></div><div class="leaflet-pane leaflet-pane_WilayahKecamatan_2-pane" style="z-index: 402; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M465 223L483 230L487 233L489 239L475 254L451 248L444 248L440 246L437 240L438 235L424 234L415 226L406 215L389 211L386 208L379 210L369 209L365 205L363 205L359 209L350 210L352 202L350 165L368 174L372 172L374 176L389 183L398 185L409 191L411 189L414 191L413 193L435 204L457 212L456 217L463 222z" aria-describedby="leaflet-tooltip-433"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M550 273L546 269L526 262L525 257L523 255L517 252L511 252L511 250L506 247L502 247L499 244L495 244L489 239L499 229L501 223L488 130L488 124L494 111L613 219L612 223L607 230L607 232L611 236L614 233L618 234L617 235L619 237L622 237L627 242L628 241L641 249L635 262L635 271L633 278L630 282L632 283L632 286L629 294L631 296L632 295L633 298L631 298L629 302L624 302L623 309L618 311L611 310L596 307L590 304L587 307L590 308L590 310L586 310L586 312L592 316L588 319L588 323L590 322L594 328L592 330L589 340L581 338L583 332L581 330L572 295L568 291L563 281L559 280L558 277L552 274z" aria-describedby="leaflet-tooltip-434"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M424 312L397 313L399 298L404 291L396 260L390 254L390 250L391 246L395 243L391 227L395 224L403 223L404 221L401 214L406 215L422 233L427 235L438 235L437 239L439 246L475 255L467 275L458 282L451 284L445 289L441 294L438 305L434 311L424 312z" aria-describedby="leaflet-tooltip-435"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M497 192L501 224L499 229L489 239L485 231L463 222L456 216L459 210L473 119L461 80L464 74L470 71L476 72L485 78L489 79L494 84L495 88L494 111L488 124L488 130L497 191z" aria-describedby="leaflet-tooltip-436"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M482 449L473 446L468 442L470 436L464 430L455 426L453 422L446 422L446 420L451 415L456 413L456 409L449 405L448 394L442 388L439 381L437 379L433 379L432 377L440 372L446 357L446 350L441 327L436 317L440 296L449 285L458 282L468 274L476 252L489 239L493 243L499 244L502 247L506 247L512 252L517 252L521 254L525 257L526 262L546 269L564 283L564 285L567 287L567 289L574 299L575 309L581 329L583 331L581 338L584 340L588 340L589 343L587 345L592 349L582 351L584 354L590 356L586 358L589 360L588 364L593 367L595 371L595 375L593 378L590 377L592 374L591 372L586 372L586 376L583 376L581 379L583 385L585 387L592 385L595 383L597 377L602 375L612 387L609 393L610 399L628 412L635 413L638 419L636 417L633 420L630 419L629 422L631 424L629 425L627 424L627 420L626 423L622 422L625 425L623 430L622 431L619 429L616 434L610 439L605 448L601 449L597 455L590 461L572 470L568 479L557 478L553 476L547 469L546 470L544 468L543 465L541 465L534 459L534 455L532 455L531 451L529 450L523 454L519 454L519 451L516 448L503 463L501 462L503 454L497 454L492 452L491 450L482 449z" aria-describedby="leaflet-tooltip-437"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M463 184L459 210L457 212L438 204L433 86L448 81L460 75L463 76L461 82L473 119L463 182z" aria-describedby="leaflet-tooltip-438"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M404 291L399 298L397 313L384 312L374 308L362 296L359 298L353 292L353 298L350 302L342 296L343 294L341 289L335 288L332 283L326 278L322 282L319 282L317 279L312 278L308 275L308 259L305 254L314 238L328 240L337 226L347 225L349 223L347 215L351 209L360 209L362 205L366 206L369 209L376 210L385 208L389 211L399 213L404 220L401 224L399 223L391 226L395 243L391 245L390 251L391 255L396 260L403 287z" aria-describedby="leaflet-tooltip-439"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M322 238L314 238L312 240L306 252L306 256L308 258L308 265L295 256L272 231L265 229L261 226L260 220L253 209L255 196L252 185L245 185L237 182L240 176L240 170L242 165L240 165L241 160L247 146L245 146L245 137L248 128L239 122L225 109L225 101L223 98L225 100L225 88L222 89L223 92L222 89L212 87L217 86L206 84L208 86L206 86L204 84L197 83L216 86L226 86L226 88L253 66L274 65L284 63L289 66L290 71L291 68L304 64L307 67L303 67L301 69L304 79L315 78L316 75L312 70L319 64L322 63L327 71L330 70L341 92L343 101L344 121L350 162L352 201L350 210L347 215L349 223L347 225L341 225L336 227L328 240L323 239z" aria-describedby="leaflet-tooltip-440"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M351 155L348 155L343 101L341 92L330 70L333 68L329 60L330 59L350 59L350 69L353 72L362 71L364 75L366 70L374 66L373 65L367 68L366 69L379 61L380 48L380 52L383 55L387 55L380 56L381 63L391 63L393 56L397 54L399 58L394 58L394 60L399 60L399 64L396 63L396 65L399 66L399 82L400 78L403 83L403 81L407 83L407 90L408 87L415 91L418 85L410 81L410 79L409 80L405 78L405 75L404 76L401 72L403 67L410 75L414 75L421 80L423 77L421 75L422 74L412 65L413 33L421 34L420 48L422 51L424 50L427 58L436 54L439 58L442 68L441 72L443 70L450 78L451 77L451 79L452 72L447 67L446 68L444 66L447 65L449 59L447 57L448 58L448 56L451 55L454 58L453 59L457 70L458 69L454 51L456 52L455 53L458 60L457 61L459 63L458 66L463 65L462 64L463 65L465 63L465 59L470 52L473 44L468 57L472 58L472 60L466 72L463 75L433 86L434 124L432 126L428 128L418 129L414 132L410 132L388 143L383 147L381 145L369 153L353 155zM473 39L470 49L469 48L471 44L469 42L468 43L470 39L473 37L475 39L473 39z" aria-describedby="leaflet-tooltip-441"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M409 510L407 528L404 530L399 530L390 541L390 539L380 538L379 540L373 543L368 540L364 544L358 544L356 549L354 549L354 544L350 543L347 537L341 534L337 529L339 527L342 529L341 524L348 513L347 504L350 502L348 497L354 490L353 486L357 477L354 474L357 468L357 464L355 461L351 461L352 454L357 451L355 447L352 449L350 447L356 443L353 440L354 438L357 440L362 439L362 437L357 434L357 432L359 430L359 421L362 418L361 414L363 409L362 404L359 401L363 393L363 381L361 377L365 375L361 369L362 360L359 357L359 348L357 342L357 332L360 326L355 318L357 312L356 308L350 303L353 299L353 293L357 295L359 298L361 296L374 308L384 312L432 312L436 309L438 305L436 316L441 327L446 350L446 359L440 372L432 377L433 379L437 379L439 381L442 388L448 394L449 405L456 409L456 413L449 417L446 420L446 422L452 422L455 426L464 430L470 436L468 441L469 443L474 446L482 449L488 449L493 453L503 455L501 458L501 462L503 464L499 466L498 469L498 471L502 474L503 477L498 483L495 481L492 485L492 487L494 488L488 490L485 487L486 484L484 484L480 489L478 486L476 486L473 488L474 489L472 491L466 491L466 496L462 497L461 501L456 508L454 505L453 506L452 511L449 510L441 513L439 510L440 509L435 506L430 509L410 509z" aria-describedby="leaflet-tooltip-442"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M272 231L295 256L308 265L308 273L297 273L295 280L293 282L289 279L286 273L283 278L282 289L270 280L266 281L262 286L260 286L254 284L251 279L245 277L238 283L236 279L237 276L233 272L234 269L232 264L226 267L224 271L217 272L215 276L216 277L211 283L184 277L177 278L176 281L165 285L160 284L158 286L154 286L155 283L138 279L116 278L114 280L110 280L94 276L82 279L81 281L84 287L70 287L67 290L47 290L41 287L37 287L33 282L35 268L27 264L22 265L10 261L8 259L8 255L12 251L11 246L2 241L2 236L-4 234L-4 231L-2 229L-4 225L-3 218L1 217L5 212L11 212L13 214L17 213L15 208L15 202L12 202L9 197L6 200L5 195L0 194L1 189L6 190L10 188L8 182L12 180L12 177L14 179L23 178L28 175L33 176L36 173L34 172L38 166L32 162L33 157L29 155L26 146L13 136L13 134L9 135L10 129L17 129L37 140L46 143L62 143L79 140L90 140L102 148L112 150L138 151L144 154L164 176L175 180L190 179L194 177L201 169L203 169L217 174L223 181L240 183L244 185L252 185L255 196L253 204L254 211L258 216L260 224L263 228L270 230z" aria-describedby="leaflet-tooltip-443"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M281 528L282 522L285 518L283 516L278 518L277 514L274 512L273 510L275 506L275 498L272 504L266 503L265 520L268 525L268 529L260 537L258 534L256 535L254 542L252 542L252 536L241 538L242 537L239 529L236 526L233 530L229 528L222 532L214 532L210 528L208 528L207 522L203 515L203 509L198 502L191 487L194 481L190 477L188 471L188 469L190 469L189 467L191 464L187 462L189 456L186 456L184 454L187 447L184 446L176 428L172 425L175 426L177 424L177 420L173 416L175 412L171 406L168 405L168 395L172 386L177 385L170 377L175 378L175 376L170 373L170 371L174 370L169 363L176 361L183 355L183 341L190 340L188 335L190 326L196 329L194 331L196 333L203 321L206 319L206 317L208 317L210 314L215 319L217 319L221 316L219 312L220 311L224 311L228 307L230 307L229 300L235 302L239 298L241 290L239 288L235 288L242 278L248 277L252 280L254 284L260 286L262 286L267 280L269 280L281 289L283 279L286 273L289 279L293 282L295 280L296 275L298 273L303 272L307 273L311 278L317 279L318 282L321 282L326 278L332 283L336 289L341 289L342 296L356 308L357 311L355 318L360 326L360 328L357 331L359 357L362 361L361 368L365 375L361 377L363 381L363 393L359 400L362 404L363 409L361 413L362 417L359 421L358 426L359 430L357 432L357 434L362 438L360 440L355 438L353 439L353 441L356 443L350 447L352 449L354 447L356 448L357 451L351 455L351 462L355 461L357 463L357 468L354 472L354 474L357 477L354 481L353 493L348 497L350 501L347 504L347 515L341 524L342 528L339 527L337 529L341 534L349 539L350 542L348 545L340 553L339 552L333 560L329 557L331 557L330 552L327 554L319 553L317 552L318 551L316 549L308 554L304 559L302 559L298 555L295 555L296 551L292 547L293 542L291 540L288 539L285 544L281 544L277 548L279 543L277 538L275 537L276 535L278 535L280 528z" aria-describedby="leaflet-tooltip-444"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M241 167L240 176L238 178L237 183L223 181L217 174L203 169L201 169L193 178L176 180L164 176L156 168L154 164L142 152L139 151L107 149L99 147L93 141L90 140L79 140L62 143L47 143L37 140L19 130L16 125L17 122L18 120L22 120L28 124L41 129L52 105L33 96L34 93L29 89L30 88L27 87L33 80L28 76L38 65L44 70L42 76L44 81L42 82L45 88L54 93L59 93L69 84L70 74L76 55L86 47L88 47L89 48L76 59L76 66L73 74L73 77L76 79L75 82L72 81L67 94L62 99L84 100L88 98L94 89L109 81L110 86L109 88L106 87L102 99L115 119L114 121L129 129L132 118L130 116L131 115L132 116L133 114L139 116L138 119L144 121L146 116L157 107L164 109L162 115L163 118L176 117L186 122L189 116L184 114L181 115L179 111L181 111L181 113L190 115L191 112L194 110L196 105L195 104L197 104L199 101L200 102L205 98L202 102L196 104L196 108L189 118L190 122L197 127L196 129L202 130L206 130L209 128L225 128L230 132L231 129L235 131L239 123L248 128L245 137L245 146L247 146L240 164L242 165z" aria-describedby="leaflet-tooltip-445"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M121 521L119 520L116 524L114 520L110 519L107 527L108 530L100 536L96 537L91 533L80 519L75 517L73 517L70 520L67 519L67 512L65 512L63 508L65 503L64 500L66 492L68 490L68 480L66 475L67 470L60 459L56 456L57 454L62 453L62 449L57 440L58 435L55 434L55 427L57 421L50 419L55 412L54 410L52 410L48 402L44 401L44 397L40 396L35 391L35 387L29 384L29 382L33 379L36 381L37 380L32 374L25 374L22 371L16 370L12 375L3 366L-2 358L-2 354L-5 353L-8 347L-13 342L-17 348L-29 342L-26 330L-30 326L-30 324L-25 326L-22 323L-28 321L-30 318L-29 317L-31 311L-28 309L-28 300L-33 296L-33 294L-28 293L-35 284L-32 282L-22 281L-20 277L-25 265L-20 255L-18 257L-12 256L9 259L13 262L20 263L21 265L26 264L32 266L35 268L33 282L36 287L42 287L46 290L67 290L70 287L84 287L81 279L93 276L110 280L114 280L116 278L138 279L152 282L154 283L155 286L159 284L166 285L175 281L177 278L184 277L211 283L216 277L215 276L217 272L224 271L227 266L232 264L234 269L233 272L235 275L237 275L236 279L238 283L235 289L239 288L241 290L239 297L235 302L229 300L230 307L228 307L227 310L220 311L219 312L221 316L219 318L216 319L210 314L203 321L196 333L194 331L196 329L189 326L187 333L190 340L183 341L183 355L180 359L169 363L174 369L173 371L170 372L175 377L171 377L177 385L172 386L168 394L168 406L171 405L175 411L173 415L177 420L177 424L175 426L172 425L179 433L184 446L187 447L184 454L189 457L187 462L191 464L188 470L188 478L178 481L176 484L182 493L180 499L184 506L183 509L185 515L180 515L177 512L170 519L165 521L161 528L152 524L149 521L147 512L143 513L141 518L139 518L137 521L126 521L124 519L122 521z" aria-describedby="leaflet-tooltip-446"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M560 170L535 149L494 111L495 88L493 83L486 78L488 78L491 75L494 77L497 83L502 82L506 86L512 84L514 80L507 77L514 72L514 70L512 70L510 67L512 65L515 71L518 68L524 73L535 60L528 58L517 43L520 40L515 40L513 38L515 40L518 37L515 36L517 34L514 31L513 32L518 27L521 26L529 34L539 48L547 55L574 64L580 64L592 69L594 69L598 64L602 64L601 70L612 66L613 67L611 69L610 78L606 88L607 89L637 81L641 89L643 100L639 105L638 114L639 121L642 125L645 136L644 153L649 159L649 161L651 161L646 165L644 173L641 178L644 180L640 190L640 201L636 211L621 204L616 213L612 217L562 173z" aria-describedby="leaflet-tooltip-447"></path><path class="leaflet-interactive" stroke="rgba(243,253,70,1.0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(243,253,70,1.0)" fill-opacity="0" fill-rule="evenodd" d="M413 190L410 189L409 191L398 185L389 183L374 176L374 173L372 172L369 174L351 166L348 155L368 153L381 145L383 147L384 145L410 132L414 132L417 129L427 128L434 124L437 204L414 193L414 191z" aria-describedby="leaflet-tooltip-448"></path></g></svg></div><div class="leaflet-pane leaflet-pane_ProklimKota2024_3-pane" style="z-index: 403; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M263,475a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M202,198a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M202,156a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M516,293a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M133,206a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M330,143a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M42,83a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M365,518a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M527,388a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M77,284a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M316,174a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M461,95a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M309,185a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M241,179a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M224,194a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M85,95a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M141,149a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M64,132a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M350,222a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M233,171a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M128,124a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M515,353a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M252,256a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M140,211a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M353,146a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M196,171a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M423,334a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M434,190a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M356,190a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M214,393a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M387,314a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M480,467a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M436,190a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M486,173a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M178,307a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M200,176a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M478,279a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M347,145a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,158,23,1.0)" fill-opacity="1" fill-rule="evenodd" d="M273,458a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div><div class="leaflet-pane leaflet-pane_ProklimKota2025_4-pane" style="z-index: 404; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M433,269a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M375,303a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M443,421a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M382,204a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M214,393a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M450,117a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M461,95a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M158,271a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M85,95a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M419,464a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M308,185a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M365,157a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M68,480a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M587,88a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M571,217a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M384,118a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(215,25,28,1.0)" fill-opacity="1" fill-rule="evenodd" d="M423,90a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div><div class="leaflet-pane leaflet-pane_ProklimKota2026_5-pane" style="z-index: 405; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M365,518a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M476,396a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M430,245a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M214,393a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M273,458a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M267,453a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M145,502a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M308,185a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M54,234a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M41,142a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M347,243a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M461,95a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M396,172a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M452,223a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M406,114a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M563,165a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M455,174a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M456,119a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(64,237,51,1.0)" fill-opacity="1" fill-rule="evenodd" d="M539,199a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div><div class="leaflet-pane leaflet-pane_ProklimNasional2024_6-pane" style="z-index: 406; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M515,353a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M543,291a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M527,388a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M308,185a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M133,206a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M196,171a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M222,196a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M140,211a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M252,256a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M77,284a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M353,146a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M103,148a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M141,149a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M66,133a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M85,95a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M41,142a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M233,171a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M316,174a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M334,151a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M480,467a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M241,179a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M384,109a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M290,429a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M350,222a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M571,217a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M220,197a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(58,169,244,1.0)" fill-opacity="1" fill-rule="evenodd" d="M201,157a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div><div class="leaflet-pane leaflet-pane_ProklimNasional2025_7-pane" style="z-index: 407; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M433,268a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M511,303a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M407,104a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M427,111a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M158,341a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M527,388a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M587,88a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M365,157a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M416,173a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M273,458a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M387,314a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M405,231a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M427,113a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M349,195a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M434,184a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M448,63a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M363,146a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M384,118a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M470,197a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M449,144a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M478,261a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M515,353a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M485,167a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M519,321a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M510,323a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M512,315a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(255,33,156,1.0)" fill-opacity="1" fill-rule="evenodd" d="M510,305a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div><div class="leaflet-pane leaflet-pane_ProklimNasional2026_8-pane" style="z-index: 408; mix-blend-mode: normal;"><svg pointer-events="none" class="leaflet-zoom-animated" width="1526" height="762" viewBox="-448 -87 1526 762" style="transform: translate3d(-448px, -87px, 0px);"><g><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M427,111a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M447,62a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M421,107a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M396,94a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M383,98a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M448,70a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M448,63a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M352,190a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M407,104a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M367,139a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M380,121a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path><path class="leaflet-interactive" stroke="rgba(35,35,35,1.0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" fill="rgba(32,245,245,1.0)" fill-opacity="1" fill-rule="evenodd" d="M116,246a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 "></path></g></svg></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="file:///C:/Users/ACER/Downloads/BATAS%20WILAYAH%20KELURAHAN-DESA%2010K/Folder%20New%20Qgis/PROKLIM%20DLH%20KOTA%20SMG/qgis2web_2026_09_22-04_36_50_776572/index.html#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="file:///C:/Users/ACER/Downloads/BATAS%20WILAYAH%20KELURAHAN-DESA%2010K/Folder%20New%20Qgis/PROKLIM%20DLH%20KOTA%20SMG/qgis2web_2026_09_22-04_36_50_776572/index.html#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div><div class="leaflet-photon leaflet-control leaflet-control-search" style="display: flex; background-color: rgba(255, 255, 255, 0.5);"><div id="gcd-button-control" class="gcd-gl-btn fa fa-search search-button"></div><input class="photon-input" type="search" placeholder="Search an address" autocomplete="off" style="border-radius: 10px; display: none;"></div></div><div class="leaflet-top leaflet-right"><div class="info leaflet-control"><h2>PROKLIK : PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026</h2></div><div class="leaflet-control abstractUncollapsed" id="abstract">Peta ini menggambarkan persebaran ProKlim di berbagai wilayah Kota Semarang dengan menampilkan informasi pada setiap lokasi ProKlim tahun 2024-2026.</div><div class="leaflet-control-layers leaflet-control" aria-haspopup="true"><a class="leaflet-control-layers-toggle" href="file:///C:/Users/ACER/Downloads/BATAS%20WILAYAH%20KELURAHAN-DESA%2010K/Folder%20New%20Qgis/PROKLIM%20DLH%20KOTA%20SMG/qgis2web_2026_09_22-04_36_50_776572/index.html#" title="Layers" role="button"></a><section class="leaflet-control-layers-list leaflet-control-layers-scrollbar" style="height: 456px;"><div class="leaflet-control-layers-base"></div><div class="leaflet-control-layers-separator" style="display: none;"></div><div class="leaflet-control-layers-overlays"><div class="leaflet-layerstree-header leaflet-layerstree-header-pointer leaflet-layerstree-nevershow" tabindex="0"><span class=""><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><span class="leaflet-layerstree-header-label"><span class="leaflet-layerstree-header-name"></span></span></span></div><div class="leaflet-layerstree-children leaflet-layerstree-children-nopad"><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimNasional2026_8.png"> Proklim Nasional 2026</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimNasional2025_7.png"> Proklim Nasional 2025</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimNasional2024_6.png"> Proklim Nasional 2024</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimKota2026_5.png"> Proklim Kota 2026</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimKota2025_4.png"> Proklim Kota 2025</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimKota2024_3.png"> Proklim Kota 2024</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name">Wilayah Kecamatan<br><table><tbody><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Banyumanik0.png"></td><td>Banyumanik</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Candisari1.png"></td><td>Candisari</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Gajahmungkur2.png"></td><td>Gajahmungkur</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Gayamsari3.png"></td><td>Gayamsari</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Genuk4.png"></td><td>Genuk</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Gunungpati5.png"></td><td>Gunungpati</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Mijen6.png"></td><td>Mijen</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Ngaliyan7.png"></td><td>Ngaliyan</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Pedurungan8.png"></td><td>Pedurungan</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_SemarangBarat9.png"></td><td>Semarang Barat</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_SemarangSelatan10.png"></td><td>Semarang Selatan</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_SemarangTengah11.png"></td><td>Semarang Tengah</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_SemarangTimur12.png"></td><td>Semarang Timur</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_SemarangUtara13.png"></td><td>Semarang Utara</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Tembalang14.png"></td><td>Tembalang</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_Tugu15.png"></td><td>Tugu</td></tr><tr><td style="text-align: center;"><img src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2_16.png"></td><td></td></tr></tbody></table></span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name">Google Satellite</span></label></span></div></div><div class="leaflet-layerstree-node"><div class="leaflet-layerstree-header"><span class="leaflet-layerstree-nevershow"><span class="leaflet-layerstree-closed leaflet-layerstree-hide">+</span><span class="leaflet-layerstree-opened">−</span><span class="leaflet-layerstree-header-space"> </span></span><span class=""><label class="leaflet-layerstree-header-label"><input type="checkbox" class="leaflet-control-layers-selector" checked=""><span class="leaflet-layerstree-header-name">Google Road</span></label></span></div></div></div></div></section></div></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> · <a href="https://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> · <a href="https://qgis.org/">QGIS</a> <span aria-hidden="true">|</span> <a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a></div></div></div></div>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/qgis2web_expressions.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/L.Control.Layers.Tree.min.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet.rotatedMarker.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet.pattern.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet-hash.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/Autolinker.min.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/rbush.min.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/labelgun.min.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/labels.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/leaflet.photon.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/WilayahKecamatan_2.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimKota2024_3.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimKota2025_4.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimKota2026_5.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimNasional2024_6.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimNasional2025_7.js"></script>
+        <script src="./PROKLIK _ PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026_files/ProklimNasional2026_8.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:false, maxZoom:28, minZoom:1
+        }).fitBounds([[-7.118663281316879,110.21379214382202],[-6.927854923016827,110.56651886251049]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        // remove popup's row if "visible-with-data"
+        function removeEmptyRowsFromPopupContent(content, feature) {
+         var tempDiv = document.createElement('div');
+         tempDiv.innerHTML = content;
+         var rows = tempDiv.querySelectorAll('tr');
+         for (var i = 0; i < rows.length; i++) {
+             var td = rows[i].querySelector('td.visible-with-data');
+             var key = td ? td.id : '';
+             if (td && td.classList.contains('visible-with-data') && feature.properties[key] == null) {
+                 rows[i].parentNode.removeChild(rows[i]);
+             }
+         }
+         return tempDiv.innerHTML;
+        }
+        // modify popup if contains media
+        function addClassToPopupIfMedia(content, popup) {
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = content;
+            var imgTd = tempDiv.querySelector('td img');
+            if (imgTd) {
+                var src = imgTd.getAttribute('src');
+                if (/\.(jpg|jpeg|png|gif|bmp|webp|avif)$/i.test(src)) {
+                    popup._contentNode.classList.add('media');
+                    var img = popup._contentNode.querySelector('td img');
+                    if (img) {
+                        // If already loaded (cache), update immediately
+                        if (img.complete && img.naturalHeight > 0) {
+                            popup.update();
+                        } else {
+                            img.addEventListener('load', function() {
+                                popup.update();
+                            });
+                            img.addEventListener('error', function() {
+                                popup.update();
+                            });
+                        }
+                    }
+                } else if (/\.(mp3|wav|ogg|aac)$/i.test(src)) {
+                    var audio = document.createElement('audio');
+                    audio.controls = true;
+                    audio.src = src;
+                    imgTd.parentNode.replaceChild(audio, imgTd);
+                    popup._contentNode.classList.add('media');
+                    setTimeout(function() {
+                        popup.setContent(tempDiv.innerHTML);
+                        popup.update();
+                    }, 10);
+                } else if (/\.(mp4|webm|ogg|mov)$/i.test(src)) {
+                    var video = document.createElement('video');
+                    video.controls = true;
+                    video.src = src;
+                    video.style.width = "400px";
+                    video.style.height = "300px";
+                    video.style.maxHeight = "60vh";
+                    video.style.maxWidth = "60vw";
+                    imgTd.parentNode.replaceChild(video, imgTd);
+                    popup._contentNode.classList.add('media');
+                    // Aggiorna il popup quando il video carica i metadati
+                    video.addEventListener('loadedmetadata', function() {
+                        popup.update();
+                    });
+                    setTimeout(function() {
+                        popup.setContent(tempDiv.innerHTML);
+                        popup.update();
+                    }, 10);
+                } else {
+                    popup._contentNode.classList.remove('media');
+                }
+            } else {
+                popup._contentNode.classList.remove('media');
+            }
+        }
+        var title = new L.Control({'position':'topright'});
+        title.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info');
+            this.update();
+            return this._div;
+        };
+        title.update = function () {
+            this._div.innerHTML = '<h2>PROKLIK : PETA INTERAKTIF PERSEBARAN PROKLIM KOTA SEMARANG 2024-2026</h2>';
+        };
+        title.addTo(map);
+        var abstract = new L.Control({'position':'topright'});
+        abstract.onAdd = function (map) {
+            this._div = L.DomUtil.create('div',
+            'leaflet-control abstract');
+            this._div.id = 'abstract'
+
+                abstract.show();
+                return this._div;
+            };
+            abstract.show = function () {
+                this._div.classList.remove("abstract");
+                this._div.classList.add("abstractUncollapsed");
+                this._div.innerHTML = 'Peta ini menggambarkan persebaran ProKlim di berbagai wilayah Kota Semarang dengan menampilkan informasi pada setiap lokasi ProKlim tahun 2024-2026.';
+        };
+        abstract.addTo(map);
+        var zoomControl = L.control.zoom({
+            position: 'topleft'
+        }).addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_GoogleRoad_0');
+        map.getPane('pane_GoogleRoad_0').style.zIndex = 400;
+        var layer_GoogleRoad_0 = L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+            pane: 'pane_GoogleRoad_0',
+            opacity: 1.0,
+            attribution: '<a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 20
+        });
+        layer_GoogleRoad_0;
+        map.addLayer(layer_GoogleRoad_0);
+        map.createPane('pane_GoogleSatellite_1');
+        map.getPane('pane_GoogleSatellite_1').style.zIndex = 401;
+        var layer_GoogleSatellite_1 = L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            pane: 'pane_GoogleSatellite_1',
+            opacity: 1.0,
+            attribution: '<a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 20
+        });
+        layer_GoogleSatellite_1;
+        map.addLayer(layer_GoogleSatellite_1);
+        function pop_WilayahKecamatan_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">NAMOBJ</th>\
+                        <td>' + (feature.properties['NAMOBJ'] !== null ? autolinker.link(String(feature.properties['NAMOBJ']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">WADMKC</th>\
+                        <td>' + (feature.properties['WADMKC'] !== null ? autolinker.link(String(feature.properties['WADMKC']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">LUAS</th>\
+                        <td>' + (feature.properties['LUAS'] !== null ? autolinker.link(String(feature.properties['LUAS']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_WilayahKecamatan_2_0(feature) {
+            switch(String(feature.properties['WADMKC'])) {
+                case 'Banyumanik':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Candisari':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Gajahmungkur':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Gayamsari':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Genuk':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Gunungpati':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Mijen':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Ngaliyan':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Pedurungan':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Semarang Barat':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Semarang Selatan':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Semarang Tengah':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Semarang Timur':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Semarang Utara':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Tembalang':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                case 'Tugu':
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_WilayahKecamatan_2',
+                opacity: 1,
+                color: 'rgba(243,253,70,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fillOpacity: 0,
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_WilayahKecamatan_2');
+        map.getPane('pane_WilayahKecamatan_2').style.zIndex = 402;
+        map.getPane('pane_WilayahKecamatan_2').style['mix-blend-mode'] = 'normal';
+        var layer_WilayahKecamatan_2 = new L.geoJson(json_WilayahKecamatan_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_WilayahKecamatan_2',
+            layerName: 'layer_WilayahKecamatan_2',
+            pane: 'pane_WilayahKecamatan_2',
+            onEachFeature: pop_WilayahKecamatan_2,
+            style: style_WilayahKecamatan_2_0,
+        });
+        bounds_group.addLayer(layer_WilayahKecamatan_2);
+        map.addLayer(layer_WilayahKecamatan_2);
+        function pop_ProklimKota2024_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Nama Proklim</th>\
+                        <td>' + (feature.properties['Nama Proklim'] !== null ? autolinker.link(String(feature.properties['Nama Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kelurahan</th>\
+                        <td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kecamatan</th>\
+                        <td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">RW</th>\
+                        <td>' + (feature.properties['RW'] !== null ? autolinker.link(String(feature.properties['RW']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tahun</th>\
+                        <td>' + (feature.properties['Tahun'] !== null ? autolinker.link(String(feature.properties['Tahun']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Status Proklim</th>\
+                        <td>' + (feature.properties['Status Proklim'] !== null ? autolinker.link(String(feature.properties['Status Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kategori</th>\
+                        <td>' + (feature.properties['Kategori'] !== null ? autolinker.link(String(feature.properties['Kategori']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_ProklimKota2024_3_0() {
+            return {
+                pane: 'pane_ProklimKota2024_3',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,158,23,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_ProklimKota2024_3');
+        map.getPane('pane_ProklimKota2024_3').style.zIndex = 403;
+        map.getPane('pane_ProklimKota2024_3').style['mix-blend-mode'] = 'normal';
+        var layer_ProklimKota2024_3 = new L.geoJson(json_ProklimKota2024_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_ProklimKota2024_3',
+            layerName: 'layer_ProklimKota2024_3',
+            pane: 'pane_ProklimKota2024_3',
+            onEachFeature: pop_ProklimKota2024_3,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_ProklimKota2024_3_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_ProklimKota2024_3);
+        map.addLayer(layer_ProklimKota2024_3);
+        function pop_ProklimKota2025_4(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Nama Proklim</th>\
+                        <td>' + (feature.properties['Nama Proklim'] !== null ? autolinker.link(String(feature.properties['Nama Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kelurahan</th>\
+                        <td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kecamatan</th>\
+                        <td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">RW</th>\
+                        <td>' + (feature.properties['RW'] !== null ? autolinker.link(String(feature.properties['RW']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Status Proklim</th>\
+                        <td>' + (feature.properties['Status Proklim'] !== null ? autolinker.link(String(feature.properties['Status Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tahun</th>\
+                        <td>' + (feature.properties['Tahun'] !== null ? autolinker.link(String(feature.properties['Tahun']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kategori</th>\
+                        <td>' + (feature.properties['Kategori'] !== null ? autolinker.link(String(feature.properties['Kategori']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_ProklimKota2025_4_0() {
+            return {
+                pane: 'pane_ProklimKota2025_4',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(215,25,28,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_ProklimKota2025_4');
+        map.getPane('pane_ProklimKota2025_4').style.zIndex = 404;
+        map.getPane('pane_ProklimKota2025_4').style['mix-blend-mode'] = 'normal';
+        var layer_ProklimKota2025_4 = new L.geoJson(json_ProklimKota2025_4, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_ProklimKota2025_4',
+            layerName: 'layer_ProklimKota2025_4',
+            pane: 'pane_ProklimKota2025_4',
+            onEachFeature: pop_ProklimKota2025_4,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_ProklimKota2025_4_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_ProklimKota2025_4);
+        map.addLayer(layer_ProklimKota2025_4);
+        function pop_ProklimKota2026_5(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Nama Proklim</th>\
+                        <td>' + (feature.properties['Nama Proklim'] !== null ? autolinker.link(String(feature.properties['Nama Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kelurahan</th>\
+                        <td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kecamatan</th>\
+                        <td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">RW</th>\
+                        <td>' + (feature.properties['RW'] !== null ? autolinker.link(String(feature.properties['RW']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Status Proklim</th>\
+                        <td>' + (feature.properties['Status Proklim'] !== null ? autolinker.link(String(feature.properties['Status Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tahun</th>\
+                        <td>' + (feature.properties['Tahun'] !== null ? autolinker.link(String(feature.properties['Tahun']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kategori</th>\
+                        <td>' + (feature.properties['Kategori'] !== null ? autolinker.link(String(feature.properties['Kategori']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_ProklimKota2026_5_0() {
+            return {
+                pane: 'pane_ProklimKota2026_5',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(64,237,51,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_ProklimKota2026_5');
+        map.getPane('pane_ProklimKota2026_5').style.zIndex = 405;
+        map.getPane('pane_ProklimKota2026_5').style['mix-blend-mode'] = 'normal';
+        var layer_ProklimKota2026_5 = new L.geoJson(json_ProklimKota2026_5, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_ProklimKota2026_5',
+            layerName: 'layer_ProklimKota2026_5',
+            pane: 'pane_ProklimKota2026_5',
+            onEachFeature: pop_ProklimKota2026_5,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_ProklimKota2026_5_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_ProklimKota2026_5);
+        map.addLayer(layer_ProklimKota2026_5);
+        function pop_ProklimNasional2024_6(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Nama Proklim</th>\
+                        <td>' + (feature.properties['Nama Proklim'] !== null ? autolinker.link(String(feature.properties['Nama Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kelurahan</th>\
+                        <td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kecamatan</th>\
+                        <td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">RW</th>\
+                        <td>' + (feature.properties['RW'] !== null ? autolinker.link(String(feature.properties['RW']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Status Proklim</th>\
+                        <td>' + (feature.properties['Status Proklim'] !== null ? autolinker.link(String(feature.properties['Status Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tahun</th>\
+                        <td>' + (feature.properties['Tahun'] !== null ? autolinker.link(String(feature.properties['Tahun']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kategori</th>\
+                        <td>' + (feature.properties['Kategori'] !== null ? autolinker.link(String(feature.properties['Kategori']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_ProklimNasional2024_6_0() {
+            return {
+                pane: 'pane_ProklimNasional2024_6',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(58,169,244,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_ProklimNasional2024_6');
+        map.getPane('pane_ProklimNasional2024_6').style.zIndex = 406;
+        map.getPane('pane_ProklimNasional2024_6').style['mix-blend-mode'] = 'normal';
+        var layer_ProklimNasional2024_6 = new L.geoJson(json_ProklimNasional2024_6, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_ProklimNasional2024_6',
+            layerName: 'layer_ProklimNasional2024_6',
+            pane: 'pane_ProklimNasional2024_6',
+            onEachFeature: pop_ProklimNasional2024_6,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_ProklimNasional2024_6_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_ProklimNasional2024_6);
+        map.addLayer(layer_ProklimNasional2024_6);
+        function pop_ProklimNasional2025_7(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Nama Proklim</th>\
+                        <td>' + (feature.properties['Nama Proklim'] !== null ? autolinker.link(String(feature.properties['Nama Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kelurahan</th>\
+                        <td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kecamatan</th>\
+                        <td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">RW</th>\
+                        <td>' + (feature.properties['RW'] !== null ? autolinker.link(String(feature.properties['RW']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Status Proklim</strong><br />' + (feature.properties['Status Proklim'] !== null ? autolinker.link(String(feature.properties['Status Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kategori</th>\
+                        <td>' + (feature.properties['Kategori'] !== null ? autolinker.link(String(feature.properties['Kategori']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tahun</th>\
+                        <td>' + (feature.properties['Tahun'] !== null ? autolinker.link(String(feature.properties['Tahun']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_ProklimNasional2025_7_0() {
+            return {
+                pane: 'pane_ProklimNasional2025_7',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,33,156,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_ProklimNasional2025_7');
+        map.getPane('pane_ProklimNasional2025_7').style.zIndex = 407;
+        map.getPane('pane_ProklimNasional2025_7').style['mix-blend-mode'] = 'normal';
+        var layer_ProklimNasional2025_7 = new L.geoJson(json_ProklimNasional2025_7, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_ProklimNasional2025_7',
+            layerName: 'layer_ProklimNasional2025_7',
+            pane: 'pane_ProklimNasional2025_7',
+            onEachFeature: pop_ProklimNasional2025_7,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_ProklimNasional2025_7_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_ProklimNasional2025_7);
+        map.addLayer(layer_ProklimNasional2025_7);
+        function pop_ProklimNasional2026_8(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Name</th>\
+                        <td>' + (feature.properties['Name'] !== null ? autolinker.link(String(feature.properties['Name']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kelurahan</th>\
+                        <td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kecamatan</th>\
+                        <td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">RW</th>\
+                        <td>' + (feature.properties['RW'] !== null ? autolinker.link(String(feature.properties['RW']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Status Proklim</th>\
+                        <td>' + (feature.properties['Status Proklim'] !== null ? autolinker.link(String(feature.properties['Status Proklim']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tahun</th>\
+                        <td>' + (feature.properties['Tahun'] !== null ? autolinker.link(String(feature.properties['Tahun']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Kategori</th>\
+                        <td>' + (feature.properties['Kategori'] !== null ? autolinker.link(String(feature.properties['Kategori']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_ProklimNasional2026_8_0() {
+            return {
+                pane: 'pane_ProklimNasional2026_8',
+                radius: 6.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(32,245,245,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_ProklimNasional2026_8');
+        map.getPane('pane_ProklimNasional2026_8').style.zIndex = 408;
+        map.getPane('pane_ProklimNasional2026_8').style['mix-blend-mode'] = 'normal';
+        var layer_ProklimNasional2026_8 = new L.geoJson(json_ProklimNasional2026_8, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_ProklimNasional2026_8',
+            layerName: 'layer_ProklimNasional2026_8',
+            pane: 'pane_ProklimNasional2026_8',
+            onEachFeature: pop_ProklimNasional2026_8,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_ProklimNasional2026_8_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_ProklimNasional2026_8);
+        map.addLayer(layer_ProklimNasional2026_8);
+        const url = {"Nominatim OSM": "https://nominatim.openstreetmap.org/search?format=geojson&addressdetails=1&",
+        "France BAN": "https://api-adresse.data.gouv.fr/search/?"}
+        var photonControl = L.control.photon({
+            url: url["Nominatim OSM"],
+            feedbackLabel: '',
+            position: 'topleft',
+            includePosition: true,
+            initial: true,
+            // resultsHandler: myHandler,
+        }).addTo(map);
+        photonControl._container.childNodes[0].style.borderRadius="10px"
+        // Create a variable to store the geoJSON data
+        var x = null;
+        // Create a variable to store the marker
+        var marker = null;
+        // Add an event listener to the Photon control to create a marker from the returned geoJSON data
+        var z = null;
+        photonControl.on('selected', function(e) {
+            console.log(photonControl.search.resultsContainer);
+            if (x != null) {
+                map.removeLayer(obj3.marker);
+                map.removeLayer(x);
+            }
+            obj2.gcd = e.choice;
+            x = L.geoJSON(obj2.gcd).addTo(map);
+            var label = typeof obj2.gcd.properties.label === 'undefined' ? obj2.gcd.properties.display_name : obj2.gcd.properties.label;
+            obj3.marker = L.marker(x.getLayers()[0].getLatLng()).bindPopup(label).addTo(map);
+            map.setView(x.getLayers()[0].getLatLng(), 17);
+            z = typeof e.choice.properties.label === 'undefined'? e.choice.properties.display_name : e.choice.properties.label;
+            console.log(e);
+            e.target.input.value = z;
+        });
+        var search = document.getElementsByClassName("leaflet-photon leaflet-control")[0];
+        search.classList.add("leaflet-control-search")
+        search.style.display = "flex";
+        search.style.backgroundColor="rgba(255,255,255,0.5)" 
+
+        // Create the new button element
+        var button = document.createElement("div");
+        button.id = "gcd-button-control";
+        button.className = "gcd-gl-btn fa fa-search search-button";
+
+        // Insert the button at the beginning of the search control
+        search.insertBefore(button, search.firstChild);
+        last = search.lastChild;
+        last.style.display = "none";
+        button.addEventListener("click", function (e) {
+            if (last.style.display === "none") {
+                last.style.display = "block";
+            } else {
+                last.style.display = "none";
+            }
+        });
+        var overlaysTree = [
+            {label: '<img src="legend/ProklimNasional2026_8.png" /> Proklim Nasional 2026', layer: layer_ProklimNasional2026_8},
+            {label: '<img src="legend/ProklimNasional2025_7.png" /> Proklim Nasional 2025', layer: layer_ProklimNasional2025_7},
+            {label: '<img src="legend/ProklimNasional2024_6.png" /> Proklim Nasional 2024', layer: layer_ProklimNasional2024_6},
+            {label: '<img src="legend/ProklimKota2026_5.png" /> Proklim Kota 2026', layer: layer_ProklimKota2026_5},
+            {label: '<img src="legend/ProklimKota2025_4.png" /> Proklim Kota 2025', layer: layer_ProklimKota2025_4},
+            {label: '<img src="legend/ProklimKota2024_3.png" /> Proklim Kota 2024', layer: layer_ProklimKota2024_3},
+            {label: 'Wilayah Kecamatan<br /><table><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Banyumanik0.png" /></td><td>Banyumanik</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Candisari1.png" /></td><td>Candisari</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Gajahmungkur2.png" /></td><td>Gajahmungkur</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Gayamsari3.png" /></td><td>Gayamsari</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Genuk4.png" /></td><td>Genuk</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Gunungpati5.png" /></td><td>Gunungpati</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Mijen6.png" /></td><td>Mijen</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Ngaliyan7.png" /></td><td>Ngaliyan</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Pedurungan8.png" /></td><td>Pedurungan</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_SemarangBarat9.png" /></td><td>Semarang Barat</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_SemarangSelatan10.png" /></td><td>Semarang Selatan</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_SemarangTengah11.png" /></td><td>Semarang Tengah</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_SemarangTimur12.png" /></td><td>Semarang Timur</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_SemarangUtara13.png" /></td><td>Semarang Utara</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Tembalang14.png" /></td><td>Tembalang</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_Tugu15.png" /></td><td>Tugu</td></tr><tr><td style="text-align: center;"><img src="legend/WilayahKecamatan_2_16.png" /></td><td></td></tr></table>', layer: layer_WilayahKecamatan_2},
+            {label: "Google Satellite", layer: layer_GoogleSatellite_1},
+            {label: "Google Road", layer: layer_GoogleRoad_0},]
+        var lay = L.control.layers.tree(null, overlaysTree,{
+            //namedToggle: true,
+            //selectorBack: false,
+            //closedSymbol: '&#8862; &#x1f5c0;',
+            //openedSymbol: '&#8863; &#x1f5c1;',
+            //collapseAll: 'Collapse all',
+            //expandAll: 'Expand all',
+            collapsed: true,
+        });
+        lay.addTo(map);
+        setBounds();
+        var i = 0;
+        layer_WilayahKecamatan_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['WADMKC'] !== null?String('<div style="color: #323232; font-size: 10pt; font-weight: bold; font-family: \'Fira Sans\', sans-serif;">' + layer.feature.properties['WADMKC']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_WilayahKecamatan_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_WilayahKecamatan_2]);
+        map.on("zoomend", function(){
+            resetLabels([layer_WilayahKecamatan_2]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_WilayahKecamatan_2]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_WilayahKecamatan_2]);
+        });
+        </script><ul class="photon-autocomplete"></ul>        
+    
+
+</body></html>
